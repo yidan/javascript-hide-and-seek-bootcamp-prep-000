@@ -11,3 +11,7 @@ function increaseRankBy(n){
   Array.prototype.map.call(e,x => x.innerHTML = parseInt(x.innerHTML,10)+n)
   
 }
+
+function deepestChild(){
+  return document.querySelector("div#grand-node div div div div")
+}
