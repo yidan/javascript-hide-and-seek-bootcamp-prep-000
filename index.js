@@ -8,6 +8,6 @@ function nestedTarget(){
 
 function increaseRankBy(n){
   let e = document.querySelectorAll(".ranked-list li")
-  e.map(x => x.innerHTML = parseInt(x.innerHTML,10)+n)
+  Array.prototype.map(e,x => x.innerHTML = parseInt(x.innerHTML,10)+n)
   
 }
